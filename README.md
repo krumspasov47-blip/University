@@ -36,8 +36,11 @@ Have a quick reference for common problems and solutions
 
 🚀 How to Use:
 
-1. Browse the folders by year and semester(1st year Python(1st semester) and C(2nd semester)
+1. Browse the folders by year and semester:
+   1st Year:
+      1st Semester - Python
+      2nd Semester - C
    
-2. Open any exercise or example
+3. Open any exercise or example
   
-3. Run the code using your preferred compiler/interpreter
+4. Run the code using your preferred compiler/interpreter
