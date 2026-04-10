@@ -40,10 +40,10 @@ Have a quick reference for common problems and solutions
 
    1st Year:
    
-      *1st Semester - Python
+      1st Semester - Python
    
-      *2nd Semester - C
+      2nd Semester - C
    
-4. Open any exercise or example
+2. Open any exercise or example
   
-5. Run the code using your preferred compiler/interpreter
+3. Run the code using your preferred compiler/interpreter
