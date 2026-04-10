@@ -37,10 +37,13 @@ Have a quick reference for common problems and solutions
 🚀 How to Use:
 
 1. Browse the folders by year and semester:
+
    1st Year:
+   
       1st Semester - Python
+   
       2nd Semester - C
    
-3. Open any exercise or example
+4. Open any exercise or example
   
-4. Run the code using your preferred compiler/interpreter
+5. Run the code using your preferred compiler/interpreter
