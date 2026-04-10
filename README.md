@@ -9,13 +9,16 @@ Algorithms and problem-solving
 Functions and modular programming
 Pointers and memory management (C)
 Object-oriented programming (depending on course)
+
 💻 Languages Used
 Python
 C
+
 🎯 Purpose
 Practice programming concepts learned in class
 Keep track of progress over time
 Have a quick reference for common problems and solutions
+
 🚀 How to Use
 Browse the folders by year and semester(1st year Python(1st semester) and C(2nd semester)
 Open any exercise or example
