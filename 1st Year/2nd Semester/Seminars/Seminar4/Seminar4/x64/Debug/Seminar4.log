@@ -1,0 +1,22 @@
+﻿  Seminar4.cpp
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(23,16): warning C4101: 'cap': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(20,20): warning C4101: 'bj': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(18,15): warning C4101: 'm': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(23,11): warning C4101: 'pos': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(22,15): warning C4101: 'found': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(19,6): warning C4101: 'min_r': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(23,21): warning C4101: 'sz': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(20,16): warning C4101: 'bi': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(20,6): warning C4101: 'best_sum': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(22,6): warning C4101: 'has_neg': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(19,13): warning C4101: 'max_r': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(21,6): warning C4101: 'rows_ok': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(21,15): warning C4101: 'cols_ok': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(20,24): warning C4101: 's': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(19,20): warning C4101: 'min_v': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(18,9): warning C4101: 'j': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(18,6): warning C4101: 'i': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(18,12): warning C4101: 'n': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(23,6): warning C4101: 'num': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar4\Seminar4\Seminar4.cpp(19,27): warning C4101: 'max_v': unreferenced local variable
+  Seminar4.vcxproj -> C:\Users\Krum\source\repos\Seminar4\x64\Debug\Seminar4.exe

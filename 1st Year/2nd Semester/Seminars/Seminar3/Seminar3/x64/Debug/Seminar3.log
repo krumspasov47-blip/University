@@ -1,0 +1,26 @@
+﻿  Seminar3.cpp
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(8,21): warning C4101: 'm': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,52): warning C4101: 'dir': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(9,11): warning C4101: 'pos': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(13,6): warning C4101: 'sum': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(10,6): warning C4101: 'found': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,45): warning C4101: 'c_dir': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(8,15): warning C4101: 'k': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(12,24): warning C4101: 'min_idx': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(12,15): warning C4101: 'max_val': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,38): warning C4101: 'c_len': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,22): warning C4101: 'b_dir': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(10,13): warning C4101: 'count': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(8,24): warning C4101: 'c': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(8,18): warning C4101: 'x': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(8,9): warning C4101: 'j': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,6): warning C4101: 'b_start': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(12,6): warning C4101: 'min_val': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,29): warning C4101: 'c_start': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(14,15): warning C4101: 'b_len': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(13,11): warning C4101: 'target': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(12,33): warning C4101: 'max_idx': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(9,16): warning C4101: 'size': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(13,19): warning C4101: 'rank': unreferenced local variable
+C:\Users\Krum\source\repos\Seminar3\Seminar3\Seminar3.cpp(9,6): warning C4101: 'num': unreferenced local variable
+  Seminar3.vcxproj -> C:\Users\Krum\source\repos\Seminar3\x64\Debug\Seminar3.exe

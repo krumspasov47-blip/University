@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Seminar4\\Seminar4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB6B3F8-706B-4084-AE62-986B09163C11}|Seminar4\\Seminar4.vcxproj|C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EB6B3F8-706B-4084-AE62-986B09163C11}|Seminar4\\Seminar4.vcxproj|solutionrelative:Seminar4\\Seminar4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seminar4.cpp",
+              "DocumentMoniker": "C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.cpp",
+              "RelativeDocumentMoniker": "Seminar4\\Seminar4.cpp",
+              "ToolTip": "C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.cpp",
+              "RelativeToolTip": "Seminar4\\Seminar4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-11T12:35:31.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Seminar4.c",
+              "DocumentMoniker": "C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.c",
+              "RelativeDocumentMoniker": "Seminar4\\Seminar4.c",
+              "ToolTip": "C:\\Users\\Krum\\Documents\\GitHub\\University\\1st Year\\2nd Semester\\Seminars\\Seminar4\\Seminar4\\Seminar4.c",
+              "RelativeToolTip": "Seminar4\\Seminar4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-11T12:27:16.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
