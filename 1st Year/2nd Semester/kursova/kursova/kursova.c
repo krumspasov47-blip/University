@@ -18,7 +18,6 @@ int main(void)
     FILE* fout;
     int ch;
     unsigned short unicode_num;
-    unsigned char  bom[2];
 
     /* Отваряме входния файл за четене в двоичен режим */
     fin = fopen("input.txt", "rb");
