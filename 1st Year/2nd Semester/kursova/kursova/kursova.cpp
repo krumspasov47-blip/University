@@ -1,60 +1,73 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
-unsigned short byte_to_unicode(unsigned short c)
+int byte_to_unicode(int c)
 {
-    /* Кирилицата в Windows-1251 започва от 0xC0 (192)
-     * и отговаря точно на Unicode блока за кирилица от 0x0410 */
     if (c >= 0xC0 && c <= 0xFF)
-        return (unsigned short)(0x0410 + (c - 0xC0));
-
-    /* Всички ASCII символи (0-127) имат същия номер в Unicode */
+        return (int)(0x0410 + (c - 0xC0));
     return c;
 }
 
-int main(void)
+int main()
 {
+    char input_name[256];
+    char output_name[256];
     FILE* fin;
     FILE* fout;
-    int ch;
-    unsigned short unicode_num;
-    unsigned char  bom[2];
+    int ch, u;
 
-    /* Отваряме входния файл за четене в двоичен режим */
-    fin = fopen("input.txt", "rb");
+    /* Ask for input filename */
+    printf("Enter input file name: ");
+    scanf("%s", input_name);
+
+    /* Build output filename by adding "_unicode" before the extension */
+    char* dot = strrchr(input_name, '.');
+    if (dot != NULL)
+    {
+        /* e.g. "hello.txt" -> "hello_unicode.txt" */
+        int base_len = dot - input_name;
+        strncpy(output_name, input_name, base_len);
+        output_name[base_len] = '\0';
+        strcat(output_name, "_unicode");
+        strcat(output_name, dot);
+    }
+    else
+    {
+        /* No extension: just append "_unicode" */
+        strcpy(output_name, input_name);
+        strcat(output_name, "_unicode");
+    }
+
+    fin = fopen(input_name, "rb");
     if (fin == NULL)
     {
-        printf("Грешка: не може да се отвори input.txt\n");
+        printf("Error: cannot open %s\n", input_name);
         return 1;
     }
 
-    /* Създаваме изходния файл за писане в двоичен режим */
-    fout = fopen("output_unicode.txt", "wb");
+    fout = fopen(output_name, "wb");
     if (fout == NULL)
     {
-        printf("Грешка: не може да се създаде output_unicode.txt\n");
+        printf("Error: cannot create %s\n", output_name);
         fclose(fin);
         return 1;
     }
 
+    /* Write BOM */
     fwrite("\xFF\xFE", 1, 2, fout);
 
-    /* Четем входния файл байт по байт до края му */
+    /* Convert byte by byte */
     while ((ch = fgetc(fin)) != EOF)
     {
-        /* Преобразуваме байта в Unicode номер */
-        unicode_num = byte_to_unicode((unsigned short)ch);
-
-        /* Записваме Unicode номера като 2 байта (UTF-16 LE формат):*/
-        /* първо записваме десния (low) байт, после левия (high) байт */
-        fputc(unicode_num & 0xFF, fout);  /* low byte  */
-        fputc((unicode_num >> 8) & 0xFF, fout);  /* high byte */
+        u = byte_to_unicode(ch);
+        fputc(u & 0xFF, fout);
+        fputc((u >> 8) & 0xFF, fout);
     }
 
     fclose(fin);
     fclose(fout);
 
-    printf("Готово! Файлът е записан като output_unicode.txt\n");
-
+    printf("Done! Saved as: %s\n", output_name);
     return 0;
 }
